@@ -7,3 +7,4 @@ pmdarima
 statsmodels
 yfinance
 matplotlib
+ta
