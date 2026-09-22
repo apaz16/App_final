@@ -185,9 +185,11 @@ if data.empty:
 # ==========================================================
 # INFORMACIÓN DEL TICKER
 # ==========================================================
+Info = ticker.get_info()
+Name = Info["longName"]
 
 st.subheader(
-    f"Información de {ticker.upper()}"
+    f"Información de {Name.upper()}"
 )
 
 col1, col2 = st.columns([2, 1])
