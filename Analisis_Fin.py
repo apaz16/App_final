@@ -185,7 +185,7 @@ if data.empty:
 # ==========================================================
 # INFORMACIÓN DEL TICKER
 # ==========================================================
-Info = ticker.get_info()
+Info = Ticker.get_info()
 Name = Info["longName"]
 
 st.subheader(
